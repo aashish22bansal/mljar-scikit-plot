@@ -1,5 +1,7 @@
 # Welcome to Scikit-plot
 
+Fork of https://github.com/reiinakano/scikit-plot
+
 [![PyPI version](https://badge.fury.io/py/scikit-plot.svg)](https://badge.fury.io/py/scikit-plot)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)]()
 [![Build Status](https://travis-ci.org/reiinakano/scikit-plot.svg?branch=master)](https://travis-ci.org/reiinakano/scikit-plot)
