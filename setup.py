@@ -35,7 +35,7 @@ class PyTest(TestCommand):
 
 setup(
     name='mljar-scikit-plot',
-    version='0.3.8',
+    version='0.3.9',
     url='https://github.com/mljar/mljar-scikit-plot',
     license='MIT License',
     author='MLJAR Sp. z o.o.',
