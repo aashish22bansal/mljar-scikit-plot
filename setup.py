@@ -54,6 +54,7 @@ setup(
     include_package_data=True,
     platforms='any',
     test_suite='scikitplot.tests.test_scikitplot',
+    python_requires='>=3.9',
     classifiers = [
         'Programming Language :: Python :: 3.9',
         'Programming Language :: Python :: 3.10',
