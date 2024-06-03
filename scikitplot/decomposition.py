@@ -9,8 +9,7 @@ from __future__ import absolute_import, division, print_function, \
     unicode_literals
 
 import matplotlib.pyplot as plt
-import numpy as np
-
+import numpy as np 
 
 def plot_pca_component_variance(clf, title='PCA Component Explained Variances',
                                 target_explained_variance=0.75, ax=None,
@@ -165,7 +164,7 @@ def plot_pca_2d_projection(clf, X, y, title='PCA 2-D Projection',
     ax.set_title(title, fontsize=title_fontsize)
     classes = np.unique(np.array(y))
 
-    colors = plt.cm.get_cmap(cmap)(np.linspace(0, 1, len(classes)))
+    colors = plt.get_cmap(cmap)(np.linspace(0, 1, len(classes)))
 
     for label, color in zip(classes, colors):
         ax.scatter(transformed_X[y == label, 0], transformed_X[y == label, 1],
