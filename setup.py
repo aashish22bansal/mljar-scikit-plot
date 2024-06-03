@@ -43,7 +43,6 @@ setup(
     install_requires=[
         'matplotlib>=1.4.0',
         'scikit-learn>=1.1.0',
-        'scipy>=1.11.4',
         'joblib>=0.10'
     ],
     cmdclass={'test': PyTest},
