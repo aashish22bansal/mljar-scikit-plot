@@ -15,3 +15,8 @@ pip install mljar-scikit-plot
 ```
 conda install -c conda-forge mljar-scikit-plot
 ```
+
+## Usage
+
+- We use this package in automatic reports for models in the [MLJAR AutoML](https://github.com/mljar/mljar-supervised).
+- We use this package in code recipes in [MLJAR Studio](https://mljar.com).
