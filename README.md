@@ -1,3 +1,10 @@
+
+<p align="center">
+  <img 
+    alt="Scikit-Plot logo"
+    src="https://raw.githubusercontent.com/mljar/mljar-scikit-plot/master/docs/scikit-plot-logo.png" width="50%" />  
+</p>
+
 # Welcome to mljar-scikit-plot
 
 It is a fork of https://github.com/reiinakano/scikit-plot
