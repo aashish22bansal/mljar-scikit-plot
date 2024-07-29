@@ -1,6 +1,6 @@
 from __future__ import print_function
 from setuptools import setup, find_packages
-from setuptools.command.test import test as TestCommand
+# from setuptools.command.test import test as TestCommand
 import io
 import codecs
 import os
@@ -21,7 +21,7 @@ def read(*filenames, **kwargs):
 long_description = read('README.md')
 # long_description = ''
 
-
+'''
 class PyTest(TestCommand):
     def finalize_options(self):
         TestCommand.finalize_options(self)
@@ -32,6 +32,7 @@ class PyTest(TestCommand):
         import pytest
         errcode = pytest.main(self.test_args)
         sys.exit(errcode)
+'''
 
 setup(
     name='mljar-scikit-plot',
@@ -45,7 +46,7 @@ setup(
         'scikit-learn>=1.1.0',
         'joblib>=0.10'
     ],
-    cmdclass={'test': PyTest},
+    # cmdclass={'test': PyTest},
     author_email='contact@mljar.com',
     description='An intuitive library to add plotting functionality to scikit-learn objects.',
     long_description=long_description,
