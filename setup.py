@@ -18,8 +18,8 @@ def read(*filenames, **kwargs):
             buf.append(f.read())
     return sep.join(buf)
 
-long_description = read('README.md')
-# long_description = ''
+#long_description = read('README.md')
+long_description = 'An intuitive library to add plotting functionality to scikit-learn objects.'
 
 '''
 class PyTest(TestCommand):
